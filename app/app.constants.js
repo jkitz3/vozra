@@ -1,3 +1,3 @@
 export const AppConstants = {
-  primary: '#585db9'
+	primary: '#585db9'
 }

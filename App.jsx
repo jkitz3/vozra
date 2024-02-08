@@ -1,9 +1,9 @@
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { StatusBar } from 'expo-status-bar'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 import { Navigation } from './app/navigation/Navigation.jsx'
 import { AuthProvider } from './app/providers/AuthProvider.jsx'
-import { SafeAreaProvider } from 'react-native-safe-area-context'
 
 const queryClient = new QueryClient()
 
@@ -18,4 +18,4 @@ export default function App() {
 			<StatusBar style='light' />
 		</QueryClientProvider>
 	)
-};
+}

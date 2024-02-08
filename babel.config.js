@@ -3,10 +3,13 @@ module.exports = function (api) {
 	return {
 		presets: ['babel-preset-expo'],
 		plugins: [
-			['babel-plugin-root-import', {
-				rootPathSuffix: 'app/',
-				rootPathPrefix: '@/'
-			}],
+			[
+				'babel-plugin-root-import',
+				{
+					rootPathSuffix: 'app/',
+					rootPathPrefix: '@/'
+				}
+			],
 			['nativewind/babel']
 		]
 	}
