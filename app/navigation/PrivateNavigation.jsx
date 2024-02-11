@@ -3,7 +3,6 @@ import React from 'react'
 
 import { Auth } from '../components'
 import { useAuth } from '../hooks/userAuth'
-
 import { routes } from './routes'
 
 const Stack = createNativeStackNavigator()

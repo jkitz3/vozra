@@ -1,6 +1,7 @@
 import React from 'react'
-import { Text } from 'react-native'
+
+import { Layout } from '../../'
 
 export const Home = () => {
-	return <Text>Home</Text>
+	return <Layout title='Главная' />
 }

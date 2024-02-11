@@ -1,6 +1,7 @@
 import React from 'react'
-import { Text } from 'react-native'
+
+import { Layout } from '../../'
 
 export const Profile = () => {
-	return <Text>Profile</Text>
+	return <Layout title='Профиль' />
 }

@@ -1,7 +1,7 @@
 export const menuData = [
 	{
 		path: 'Home',
-		iconName: 'clockcircleo'
+		iconName: 'form'
 	},
 	{
 		path: 'Profile',

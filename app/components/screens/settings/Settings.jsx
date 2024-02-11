@@ -1,6 +1,7 @@
 import React from 'react'
-import { Text } from 'react-native'
+
+import { Layout } from '../../'
 
 export const Settings = () => {
-	return <Text>Settings</Text>
+	return <Layout title='Настройки' />
 }

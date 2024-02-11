@@ -1,6 +1,5 @@
 import * as Splash from 'expo-splash-screen'
 import React, { createContext, useEffect, useState } from 'react'
-import { Text } from 'react-native'
 
 export const AuthContext = createContext({})
 
