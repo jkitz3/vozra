@@ -1,6 +1,7 @@
 export { Auth } from '../components/screens/auth/Auth'
 export { Home } from '../components/screens/home/Home'
 export { Profile } from '../components/screens/profile/Profile'
+export { Documents } from '../components/screens/documents/Documents'
 export { Settings } from '../components/screens/settings/Settings'
 export { Loader } from './ui/Loader'
 export { Button } from './ui/Button'

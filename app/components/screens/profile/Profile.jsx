@@ -1,7 +1,14 @@
 import React from 'react'
 
-import { Layout } from '../../'
+import { Button, Layout } from '../../'
+import { useAuth } from '../../../hooks/userAuth'
 
 export const Profile = () => {
-	return <Layout title='Профиль' />
+	const { setUser } = useAuth()
+
+	return (
+		<Layout title='Профиль'>
+			<Button onPress={() => setUser(null)}>Выйти</Button>
+		</Layout>
+	)
 }

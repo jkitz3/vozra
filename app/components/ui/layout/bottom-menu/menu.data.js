@@ -4,11 +4,15 @@ export const menuData = [
 		iconName: 'form'
 	},
 	{
-		path: 'Profile',
+		path: 'Documents',
 		iconName: 'profile'
 	},
 	{
 		path: 'Settings',
 		iconName: 'setting'
+	},
+	{
+		path: 'Profile',
+		iconName: 'user'
 	}
 ]

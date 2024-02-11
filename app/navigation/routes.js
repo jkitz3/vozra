@@ -1,4 +1,4 @@
-import { Auth, Home, Profile, Settings } from '../components/index'
+import { Documents, Home, Profile, Settings } from '../components/index'
 
 export const routes = [
 	{
@@ -6,11 +6,15 @@ export const routes = [
 		component: Home
 	},
 	{
-		name: 'Profile',
-		component: Profile
+		name: 'Documents',
+		component: Documents
 	},
 	{
 		name: 'Settings',
 		component: Settings
+	},
+	{
+		name: 'Profile',
+		component: Profile
 	}
 ]
